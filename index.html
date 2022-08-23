@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Net Zero</title>
+
+  <!--Favicon  -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Bootstrap -->
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="netzero.css" rel="stylesheet">
+
+  <!--Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Bootstrap javascript    -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  <!-- Font awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <link href="netzero.css" rel="stylesheet">
+</head>
+
+<body class="index">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Net Zero</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="videos.html">Videos</a>
+            <a class="nav-link active" aria-current="page" href="research-papers.html">Research Papers</a>
+            <a class="nav-link active" aria-current="page" href="gallery.html">Browse Gallery</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#" />
+          </svg>
+          <img src="images/1.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Waste to Energy</h1>
+              <p>Process of generating energy in the form of electricity and/or heat from the primary treatment of waste, or the processing of waste into a fuel source.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.mnre.gov.in/waste-to-energy/current-status">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#" />
+          </svg>
+          <img src="images/2.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Energy Management.</h1>
+              <p>Process of tracking and optimizing energy consumption to conserve usage.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.enertiv.com/resources/faq/what-is-energy-management#:~:text=Energy%20management%20is%20the%20process,rates%20to%20improve%20energy%20efficiency.">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#" />
+          </svg>
+          <img src="images/3.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Waste Management.</h1>
+              <p>Processes required to manage waste from its inception to its final disposal.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.worldbank.org/en/topic/urbandevelopment/brief/solid-waste-management">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="middle-container">
+
+
+      <div class="row">
+        <div class="col-lg-4">
+
+          <h2>Growing Problem</h2>
+          <p>Solid waste management (SWM) is a major problem for many urban local bodies (ULBs) in India, where urbanization, industrialization and economic growth have resulted in increased municipal solid waste (MSW) generation per person.</p>
+          <p><a class="btn btn-secondary" href="https://royalsocietypublishing.org/doi/10.1098/rsos.160764">View details</a></p>
+        </div>
+        <div class="col-lg-4">
+
+          <h2>Waste disposal now</h2>
+          <p>Landfilling is considered as a waste treatment process, with its own inputs and outputs, rather than as a final disposal method for solid waste. Land-filling essentially involves long-term storage for inert materials along with relatively uncontrolled decomposition of biodegradable waste.</p>
+          <p><a class="btn btn-secondary" href="https://sswm.info/water-nutrient-cycle/wastewater-treatment/hardwares/solid-waste/landfills">View details</a></p>
+        </div>
+        <div class="col-lg-4">
+
+          <h2>In the Future</h2>
+          <p> Colloquially described as ‘trash to treasure’, waste-to-energy is the process of burning residual waste – waste that would otherwise end up in landfill – to produce energy.WtE is not without its negatives, but it is better than landfill
+          </p>
+          <p><a class="btn btn-secondary" href="https://www.energy.gov/eere/bioenergy/waste-energy">View details</a></p>
+        </div>
+      </div>
+
+
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Energy Management. <span class="text-muted">A need of the hour.</span></h2>
+          <p class="lead">Energy needs to be conserved not only to cut costs but also to preserve the resources for longer use.
+
+            As of today, most of the energy is generated from coal powered power plants. These plants do generate energy but also pollute the environment by emitting harmful gases in the atmosphere. These toxic gases are just not only harmful to the
+            environment but also cause serious health concern to humans and animals. Every year millions of people die due to the presence of toxic substances in the air that we breathe.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/energy.jpg" class="factory" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Waste Management. <span class="text-muted"> Our duty to save this place.</span></h2>
+          <p class="lead">Waste management reduces the effect of waste on the environment, health, and so on. It can also help reuse or recycle resources, such as; paper, cans, glass, and so on.Reducing, reusing and recycling your waste is important
+            for the environment, but it can also be profitable. It decreases the amount of waste for disposal, saves space in landfills, and conserves natural resources.
+
+            Finally, waste management is also important for public health.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="images/waste.jpg" class="factory" alt="">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Waste to Energy. <span class="text-muted">Our way into the Future.</span></h2>
+          <p class="lead">With the increasing effeciency in the conversion of waste to energy ,the day isn't far where we would no longer need to rely on fossil fuels and completely switch to renewable energy.Waste-to-Energy facilities provide a
+            safe, technologically advanced means of waste disposal that reduces greenhouse gases, generates clean energy and recycles metal. Waste-to-Energy (WTE) is widely recognized as a technology that can help mitigate climate change.This would
+            lead to a world with much lesser pollution and Eco-friendly.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/w2e.jpg" class="factory" alt="">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+
+    </div>
+
+
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy;NET ZERO, DSCE 2022.
+    </footer>
+  </main>
+
+
+
+</body>
+
+</html>
